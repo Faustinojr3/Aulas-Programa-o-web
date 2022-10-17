@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-   background-color: black;
+   background-color:  rgb(38, 22, 56);
    margin: 0;
    padding: 0;
    color: aliceblue;
@@ -24,13 +24,11 @@ background-image: url("../Imagens/Cabeçalho.jpg");
 }
 
 #Introdução{
-
-   border: 5px solid; 
-   width: 550px;
-   height: 250px;
-
-
-   justify-content: center;
-align-items: center;
+text-align: justify;
+   border: 0px solid; 
+  padding: 20px 350px 20px 200px;
+   width: 600px;
+   content: auto;
+   margin: 20px 700px 50px 200px;
+background-color: rgb(78, 47, 110);
 }
-
