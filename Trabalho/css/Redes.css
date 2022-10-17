@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+   background-color: black;
+   margin: 0;
+   padding: 0;
+   color: aliceblue;
+
+}
+
+Section#Cabecalho{
+   /* Altura vísivel do navegador */
+min-height:  100vh;
+width: 100%;
+background-size: cover;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-family: 'Patua One', cursive;
+font-size: 45px;
+background-image: url("../Imagens/Cabeçalho.jpg");
+
+}
+
+#Introdução{
+
+   border: 5px solid; 
+   width: 550px;
+   height: 250px;
+
+
+   justify-content: center;
+align-items: center;
+}
+
