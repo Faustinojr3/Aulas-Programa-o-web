@@ -23,12 +23,20 @@ background-image: url("../Imagens/Cabeçalho.jpg");
 
 }
 
-#Introdução{
-text-align: justify;
+.Estrutura{
+
    border: 0px solid; 
-  padding: 20px 350px 20px 200px;
-   width: 600px;
-   content: auto;
-   margin: 20px 700px 50px 200px;
+  padding: 20px 50px 20px 50px; 
+   width: 70%;
+    content: auto;
+   margin: 20px 150px;
 background-color: rgb(78, 47, 110);
+}
+h1.Estrutura{
+   text-align: center;
+}
+#menuEst{
+
+  
+
 }
