@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(230, 21, 21);
+}
+
+
+
+
+h1{margin: 0 auto;
+    width: 600px;
+    padding: 10px;
+    
+  
+    
+    
+}
+form{ 
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+border: rgb(8, 0, 0) solid 2px;
+    
+  
+}
+
+input [type = text], input [type= email], input[type= tel],select, textarea
+{
+    width: 100%;
+    padding: 5px 0px;
+    background-color: aqua;
+}
+input:focus{ background-color: rgb(43, 255, 54);}
+
+
+label{display: block;}
+
+label.radio{ display: inline-block;}
+
+.botao{ width: 100px;
+background-color: blanchedalmond;
+cursor: grab;
+box-shadow: rgba(235, 231, 231, 0);
+
+}
+div{ padding-top: 5px;}
+
+.botao:hover{
+    width: 120px;
+background-color: #4d79c9;
+height: 25px;
+border-radius: 3px;
+border: none;
+
+}
+div.centralizar{
+    text-align: center;
+}
