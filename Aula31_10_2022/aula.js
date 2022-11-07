@@ -1,0 +1,1 @@
+cnpj.value= vcnpj.replace(/)
