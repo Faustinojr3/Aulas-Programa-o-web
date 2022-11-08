@@ -1,0 +1,12 @@
+.fundo{
+
+background-color: brown;
+padding: 30px;
+border: 2px solid rgb(21, 172, 59);
+}
+
+.fonte{ 
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 600;
+}
