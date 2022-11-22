@@ -140,4 +140,28 @@ h2{
 .linha{
     min-height: 400px;
     text-align: center;
+    margin-top: 100px;
+}
+.Icone1{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.Icone2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.Icone4{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.Icone5{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.Icone6{
+    margin-top: 10px;
+    font-size: 30px;
 }
