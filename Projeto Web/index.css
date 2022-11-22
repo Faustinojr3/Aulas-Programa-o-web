@@ -1,11 +1,11 @@
-*{
+* {
     box-sizing: border-box;
     text-decoration: nome;
     align-items: center;
 
- }
+}
 
-body{
+body {
     color: rgb(252, 252, 252);
     background-image: radial-gradient(circle at 95.03% 50%, #acacff 0, #7f92fd 25%, #3c78f2 50%, #0061e7 75%, #004ddc 100%);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif;
@@ -18,17 +18,21 @@ body{
 
 }
 
-.header h1{
+.header h1 {
     font-size: 50px;
-   /* padding:50px ; */
-  text-align: center;
- 
-   
- }
+    /* padding:50px ; */
+    margin-left: 0px ;
+
+
+}
+.header h2{
+    margin-top: 50px ;
+}
 
 nav {
     display: block;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -41,17 +45,19 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
-.topnav a:hover{
+
+.topnav a:hover {
     background-color: #6482de;
 
 }
-.topnav{
-    overflow:hidden;
+
+.topnav {
+    overflow: hidden;
     text-align: right;
     padding: 0;
 }
 
-ul{
+ul {
     width: 20%;
     float: left;
     background-color: rgb(172, 167, 176);
@@ -75,93 +81,119 @@ li a {
 
 }
 
-#colEsq{
-    float:left ;
+#colEsq {
+    display: inline-block;
     width: 20%;
     background-color: rgb(0, 0, 0) 50%;
     color: rgb(0, 0, 0);
-    background: rgba(255, 255, 255, 0.56);
+    background: rgba(202, 202, 202, 0.56);
     line-height: 150%;
-    text-decoration:none;
+    text-decoration: none;
     justify-content: space-around;
     align-items: center;
-    
- }
- #colCenter{
-    float:left ;
+    /* height: 175px;
+padding-top: 30px;
+text-align: center;
+margin-top: 100px;
+margin-left: 50px; */
+
+}
+
+#colCenter {
+    display: inline-block;
     width: 20%;
     background-color: rgb(0, 0, 0) 50%;
     color: rgb(0, 0, 0);
-    background: rgba(255, 255, 255, 0.56);
+    background: rgba(202, 202, 202, 0.56);
     line-height: 150%;
-    text-decoration:none;
+    text-decoration: none;
     justify-content: space-around;
     align-items: center;
+    /* height: 175px;
+    padding-top: 30px;
+    margin-top: 100px; */
+}
 
- }
- 
- #colDir{
-    float:left ;
+#colDir {
+    display: inline-block;
     width: 20%;
     background-color: rgb(0, 0, 0) 50%;
     color: rgb(0, 0, 0);
-    background: rgba(255, 255, 255, 0.56);
+    background: rgba(202, 202, 202, 0.56);
     line-height: 150%;
-    text-decoration:none;
+    text-decoration: none;
     justify-content: space-around;
     align-items: center;
+    /* height: 175px;
+   padding-top: 30px; 
+   text-align: center;
+   margin-top: 100px; */
+   
+}
 
-  
- }
-
- .Imagem {
-    
-    height: 400px;
-    float:left;
-    gap: 500px;
+.Imagem {
+    height: 300px;
+    float: left;
+    gap: 0px;
     margin-top: 70px;
-    margin-left: 10px ;
+    margin-left: 10px;
     padding: 30px;
-    
+}
 
-  }
-.Historia{
+.Historia {
     margin-top: 20px;
     line-height: 20px;
-    height:100px;
+    height: 100px;
     text-align: justify;
     padding-right: 400px;
     padding-left: 50px;
 }
-h2{
-    margin-top: 80px;
+
+h2 {
+    margin-top: 100px;
     text-align: left;
 }
-.linha{
+
+.linha {
+    display: block;
     min-height: 400px;
     text-align: center;
     margin-top: 100px;
+    background-color: rgb(0, 0, 0) 50%;
 }
-.Icone1{
+
+.Icone1 {
     margin-top: 20px;
     font-size: 30px;
+    vertical-align: middle;
 }
 
-.Icone2{
+.Icone2 {
     margin-top: 10px;
     font-size: 30px;
+    vertical-align: middle;
 }
 
-.Icone4{
+.Icone4 {
     margin-top: 10px;
     font-size: 30px;
+    vertical-align: middle;
 }
 
-.Icone5{
+.Icone5 {
     margin-top: 10px;
     font-size: 30px;
+    vertical-align: middle;
+
 }
-.Icone6{
+
+.Icone6 {
     margin-top: 10px;
     font-size: 30px;
+    vertical-align: middle;
+}
+
+.fixar{
+    vertical-align: middle;
+    height: 70px;
 }
